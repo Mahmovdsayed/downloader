@@ -1,5 +1,5 @@
 {
-  "name": "@downloader/api",
+  "name": "api",
   "module": "index.ts",
   "type": "module",
   "version": "1.0.0",
@@ -16,6 +16,8 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@distube/ytdl-core": "^5.2.1",
+    "@downloader/validators": "workspace:*",
     "hono": "^4.13.16"
   }
 }
